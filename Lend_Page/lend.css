@@ -1,0 +1,54 @@
+#upper{
+    margin-top: 20px;
+    margin-left: 4%;
+    margin-bottom: 30px;
+    margin-right: 2%;
+}
+#filter{
+    width: 20%;
+    margin-bottom: 6px;
+    border: 1px solid rgb(237, 231, 231);
+}
+#main_filter{
+    margin-left: 30px;
+    margin-top: 60px;
+   
+}
+#src{
+    height: 30px;
+}
+#src1{
+    height: 30px;
+}
+#src2{
+    height: 30px;
+}
+#src3{
+    height: 30px;
+}
+#upper_part{
+     cursor: pointer;
+    border: 1px solid rgb(237, 231, 231);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#upper_part:hover{
+    text-decoration: underline;
+}
+#upper_part>img{
+    margin-top: 7px;
+
+}
+#input{
+    margin-left: 10px;
+}
+#input1{
+    margin-left: 10px;
+}
+#input2{
+    margin-left: 10px;
+}
+#input3{
+    margin-left: 10px;
+}
