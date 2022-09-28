@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(250, 241, 242);
+}
+
+ #first{
+    border: 0.5px solid black;
+    padding: 12px;
+    border-radius: 7px;
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+} 
+#refine{
+    padding: 11px;
+    border-radius: 17px;
+    border:1px solid rgb(178, 6, 6);
+    color:rgb(178, 6, 6);
+    cursor: pointer;
+    width: 16%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+} 
+#cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    gap: 30px;
+    margin: auto;
+    margin-top: 50px;    
+}
+.card{
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+}
+.img{
+    height: 70%;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+#cr{
+    display: flex;
+    gap: 15px;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 15px;
+}
