@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="./styles/contact.css">
     <title>contact</title>
  
 </head>
@@ -48,22 +48,22 @@
     <h2 id="jtc">Join the conversation</h2>
    <h3 id="social_sites">Join us on Facebook, Twitter, Instagram and YouTube as we share uplifting stories of successful fundraisers! </h3>
      <div id="social_media">
-      <div class="social">
+      <div class="fbpage">
         <span><img src="https://pages.milaap.org/wp-content/uploads/2022/02/facebook-icon.png" alt="error"></span>
         <p>2.4M likes on FACEBOOK</p>
       </div>
 
-      <div  class="social">
+      <div  class="twitterpage">
         <span><img src="https://pages.milaap.org/wp-content/uploads/2022/02/twitter-icon.png" alt="error"></span>
         <p>23.5K followers on TWITTER</p>
       </div>
 
-      <div class="social">
+      <div class="instapage">
         <span><img src="https://pages.milaap.org/wp-content/uploads/2022/02/instagram-icon.png" alt="error"></span>
         <p>75.1K followers on INSTAGRAM</p>
       </div>
 
-      <div  class="social">
+      <div  class="ytubepage">
         <span><img src="https://pages.milaap.org/wp-content/uploads/2022/02/youtube-icon.png" alt="error"></span>
         <p>41K subscribers on YOUTUBE</p>
       </div>
@@ -72,24 +72,27 @@
   </div>
 
        <!-- ************* -->
-   
+    <div id="know_what">
+        <h1>Let us know what you think </h1> 
+      </div>
 
-    <div id="form">
-
-      <div> <h1  id="formline" >Let us know what you think </h1></div>
+    <div id="suggestionbox">
       <div id="credential">
          <input type="text" id="name" placeholder="Name">
          <input type="email" id="mail" placeholder="Email address">
      </div>
-      <div> 
-         <input placeholder="You can type any suggestions or queries you might have. Let us help you!" id="description"></input>
+     
+     <input id="queries" placeholder="You can type any suggestions or queries you might have. Let us help you!" ></input>
+     
+      <div id="send" >
+        <button onclick="sendmessage()">Send</button>
       </div>
-      <button id="send">Send</button>
+       <div id="scontainer"></div>
+    </div>
 
-   </div>
-
-
-
+  
 
 </body>
 </html>
+
+<script src="./scripts/contact.js"> </script>
