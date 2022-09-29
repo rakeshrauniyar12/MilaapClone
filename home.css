@@ -1,0 +1,27 @@
+.carousel {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  border: 2px solid red;
+}
+.carousel-inner {
+  width: 100%;
+}
+.cards-carousel {
+  width: 70%;
+  height: 500px;
+  border: 2px solid blue;
+  margin: auto;
+}
+.carousel-section {
+  display: block;
+  background-image: url(https://assets.milaap.org/packs/_/assets/images/home/testimonial-bg-703d695dffc4e175064a2bd22140a262.png);
+  background-position: 0 0;
+  background-size: 100% 100%;
+  padding: 125px 0;
+  margin: 33px 0;
+}
+.logo {
+  width: 120px;
+  margin-right: 45px;
+}
