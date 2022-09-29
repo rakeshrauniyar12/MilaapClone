@@ -15,6 +15,10 @@ body{
     text-align: center;
     display: flex;
     margin-bottom: 30px;
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    display: flex;
 } 
 #refine{
     padding: 11px;
@@ -40,6 +44,11 @@ body{
 }
 .img{
     height: 65%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+}
+.img{
+    height: 70%;
     width: 100%;
     border-radius: 8px 8px 0 0;
 }

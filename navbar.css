@@ -1,0 +1,12 @@
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.nav-link {
+  color: black;
+  font-weight: 600;
+  margin-left: 35px;
+}
+.nav-link:hover {
+  background-color: brown;
+  color: white;
+}

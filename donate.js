@@ -25,6 +25,11 @@ display();
 function display(){
     data.forEach((ele)=>{
         let div = document.createElement('div');
+display();
+function display(){
+
+    data.forEach((ele)=>{
+        let div = document.createElement('div');
         div.setAttribute('class','card');
         let img = document.createElement('img');
         img.setAttribute('class','img')
@@ -115,3 +120,6 @@ btn.innerText = ' Start a fundraiser';
 btn.setAttribute('id','btn');
 fund1.append(para,btn);
 fund.append(fund1);
+        document.getElementById('cards').append(div);
+    })
+}
