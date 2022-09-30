@@ -1,7 +1,20 @@
+<<<<<<< HEAD
 let arr = [{image:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1659782145/production/images/loan/a020o000010KygSAAS-GrameenShakti-L-1019-167114_1659782144.jpg",funded:74527.00,still_require:2925473,name:"Dolan Santra And Group",location:"Shantipur, West Bengal",purpose:"to buy threads in bulk and make as well as sell more number of sarees",expiry:"expiry",description:"Dolan is a 29-year-old married woman residing in Nadia district of West Bengal. She has a family of 3 members. She assists her husband and manages to accumulate a household income of an amount of INR.9,500 per month. She is the leader of a big group of 65 women. With a better income generation, she can help in the running of the household and also cater to her family better. This will give her a sense of financial interdependence making her a valuable part of the community."},{image:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1656735329/production/images/loan/a020o000011o3FYAAY-KarandighiBrJuiGroup_1656735328.jpg",popularity:"popularity",funded:474391,still_require:275600,name:"Rina Das And Group",location:" Karandighi, West Bengal",purpose:" to purchase seeds, fertilisers and other raw materials for the cultivation of paddy and vegetables",description:"Rina is a 40-year-old married woman residing in Uttar Dinajpur district of West Bengal. She has a household of 4 members, which includes 1 school-going girl child. Her family is involved in the business of paddy cultivation and she has a monthly household income of INR 9,000. The monthly household expenses amount to INR 5,000. Rina is the leader of a group of 28 women, all of whom are involved in cultivation of paddy and vegetables. Rina has applied for a loan of INR 7,50,000 from DCBS, one of Milaap's field partners."},{image:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1656834689/production/images/loan/a029000000uOWxfAAG-IMG-20181015-WA0008_1656834687.jpg",funded:431211,still_require:68788,name:"Arti Rani Mahato And Group",interest_rate:"interest rate",location:"Karandighi, West Bengal",purpose:"to purchase seeds, fertilizers etc. in order to expand the existing farming business.",description:"Arti Rani sitting at the first row, second from the right-hand sideis a 43-year-old woman from Uttar Dinajpur, West Bengal, with a family of four members and a monthly household income of INR 9,000. She has formed a self-help group, named Sabuj Arti, with 22 other women belonging from her village. These women are extremely hardworking and driven to better their livelihood. They cultivate paddy and a variety of vegetable crops in their fields. These women now wish to expand their business by purchasing more seeds and fertilizers"},{image:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1660283784/production/images/loan/a020o000016LBvkAAG-GrameenShakti-L-1020-171750_1660283782.jpg",recent:"recent",funded:105797,still_require:893202,name:"Shyamali Das And Group",location:" Srirampur, West Bengal",purpose:"to purchase fishes in order to expand fishing business.",description:"Shyamali is a 30- year- old married woman. She resides in Burdwan district of West Bengal. She has a household of size 4 members. She manages to accumulate a monthly household income of INR 7,500. She has formed and is leading a group of 27 members who work hard to support their families and save diligently. She realized that an increase in her and her friend's income levels and control over income will ensure economic empowerment. It will give them an independent means of generating wealth and becoming self-reliant in a society."},{image:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1658921767/production/images/loan/a020o00000wMcxmAAC-KPMay19_1658921766.jpg",funded:90635,still_require:469346,name:"Sunanda Debnath And Group",location:" Kadapara, West Bengal",purpose:"to invest more in the shoemaking businss by buying the raw materials",description:"Lila is a 37-year-old married woman residing in Imphal West district of Manipur. She runs a household of 5 members. She is involved in shoemaking business and manages to accumulate a household income of a monthly amount of INR. 15,500. She runs a group of 28 members who are good weavers too. She realises that an increase in her income levels and control over income will ensure greater levels of economic independence. It will give her an independent means of generating wealth and becoming self-reliant in a society."},{image:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1658921781/production/images/loan/a020o00000xCMc9AAG-KPjune19_1658921779.jpg",funded:54835,still_require:345165,name:"Sandhya Mondal And Group",location:"Kadapara, West Bengal",purpose:"to add more number of stationery products inthe market",description:"Bijoli is a 29-years-old married woman from a small village of Kolkata district, West Bengal. She has a family of 5 members and manages to accumulate a monthly household income of an amount of INR 17,000. she runs a group of 20 women She runs the stationery business.She plans to purchase more stock of grocery stock in order to make more profit and increase her family income. An increase in the income levels and control over income will ensure greater levels of economic independence for the women in the villages."},{image:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1660291964/production/images/loan/a020o0000182LmiAAE-MGS1B05_1660291962.jpg",funded:308987,still_require:51012,name:"Sunita And Group",location:" Kwakeithel Branch, Manipur",purpose:"to be able to pay for their children's primary and secondary education costs for their better future",description:"Sunita is a 40-year-old married woman and a mother of two school-going children. She lives in a small village in Imphal-West district, Manipur. She is engaged in small business and her family monthly income is Rs. 23,000. The income is not enough for all the household expenses along with the education costs of both her children. She wishes to fulfill all the dreams of her children but is worried due to the lack of proper savings. She is a part of a six members group who have similar issues."},{image:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1660291990/production/images/loan/a020o0000182LmsAAE-TMMB01_1660291988.jpg",funded:257054,still_require:42945,name:"Ibemcha And Group",location:" Sega Road Branch, Manipur",purpose:"to purchase school supplies and pay school fees",description:"Ibemcha is a 35-year-old married woman from the Imphal West district of Manipur. She has a family of 5 members and an income of INR 25,000, which barely makes their ends meet. She is a part of a group of mothers of young students who have realized the importance of a good education. But their low family incomes cannot sustain their children's high educational aspirations in life. So she and her friends have formed a group of 5 members to take up an education loan of INR 3,00,000 from Chanura, one of Milaap's field partners."}];
 //console.log(arr);
 
 function appendData(arr){
+=======
+import {headers1} from "../component/headers.js";
+document.querySelector("#navbar").innerHTML=headers1();
+let nn= document.querySelector("#navb").addEventListener("click",()=>{
+    popupShow();
+})
+console.log(document.body);
+let arr = [{image:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1659782145/production/images/loan/a020o000010KygSAAS-GrameenShakti-L-1019-167114_1659782144.jpg",funded:74527.00,still_require:2925473,name:"Dolan Santra And Group",location:" Shantipur, West Bengal",purpose:"to buy threads in bulk and make as well as sell more number of sarees",description:"Dolan is a 29-year-old married woman residing in Nadia district of West Bengal. She has a family of 3 members. She assists her husband and manages to accumulate a household income of an amount of INR.9,500 per month. She is the leader of a big group of 65 women. With a better income generation, she can help in the running of the household and also cater to her family better. This will give her a sense of financial interdependence making her a valuable part of the community."},{image:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1656735329/production/images/loan/a020o000011o3FYAAY-KarandighiBrJuiGroup_1656735328.jpg",funded:474391,still_require:275600,name:"Rina Das And Group",location:" Karandighi, West Bengal",purpose:" to purchase seeds, fertilisers and other raw materials for the cultivation of paddy and vegetables",description:"Rina is a 40-year-old married woman residing in Uttar Dinajpur district of West Bengal. She has a household of 4 members, which includes 1 school-going girl child. Her family is involved in the business of paddy cultivation and she has a monthly household income of INR 9,000. The monthly household expenses amount to INR 5,000. Rina is the leader of a group of 28 women, all of whom are involved in cultivation of paddy and vegetables. Rina has applied for a loan of INR 7,50,000 from DCBS, one of Milaap's field partners."},{image:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1656834689/production/images/loan/a029000000uOWxfAAG-IMG-20181015-WA0008_1656834687.jpg",funded:431211,still_require:68788,name:"Arti Rani Mahato And Group",location:"Karandighi, West Bengal",purpose:"to purchase seeds, fertilizers etc. in order to expand the existing farming business.",description:"Arti Rani sitting at the first row, second from the right-hand sideis a 43-year-old woman from Uttar Dinajpur, West Bengal, with a family of four members and a monthly household income of INR 9,000. She has formed a self-help group, named Sabuj Arti, with 22 other women belonging from her village. These women are extremely hardworking and driven to better their livelihood. They cultivate paddy and a variety of vegetable crops in their fields. These women now wish to expand their business by purchasing more seeds and fertilizers"},{image:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1660283784/production/images/loan/a020o000016LBvkAAG-GrameenShakti-L-1020-171750_1660283782.jpg",funded:105797,still_require:893202,name:"Shyamali Das And Group",location:" Srirampur, West Bengal",purpose:"to purchase fishes in order to expand fishing business.",description:"Shyamali is a 30- year- old married woman. She resides in Burdwan district of West Bengal. She has a household of size 4 members. She manages to accumulate a monthly household income of INR 7,500. She has formed and is leading a group of 27 members who work hard to support their families and save diligently. She realized that an increase in her and her friend's income levels and control over income will ensure economic empowerment. It will give them an independent means of generating wealth and becoming self-reliant in a society."},{image:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1658921767/production/images/loan/a020o00000wMcxmAAC-KPMay19_1658921766.jpg",funded:90635,still_require:469346,name:"Sunanda Debnath And Group",location:" Kadapara, West Bengal",purpose:"to invest more in the shoemaking businss by buying the raw materials",description:"Lila is a 37-year-old married woman residing in Imphal West district of Manipur. She runs a household of 5 members. She is involved in shoemaking business and manages to accumulate a household income of a monthly amount of INR. 15,500. She runs a group of 28 members who are good weavers too. She realises that an increase in her income levels and control over income will ensure greater levels of economic independence. It will give her an independent means of generating wealth and becoming self-reliant in a society."},{image:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1658921781/production/images/loan/a020o00000xCMc9AAG-KPjune19_1658921779.jpg",funded:54835,still_require:345165,name:"Sandhya Mondal And Group",location:"Kadapara, West Bengal",purpose:"to add more number of stationery products inthe market",description:"Bijoli is a 29-years-old married woman from a small village of Kolkata district, West Bengal. She has a family of 5 members and manages to accumulate a monthly household income of an amount of INR 17,000. she runs a group of 20 women She runs the stationery business.She plans to purchase more stock of grocery stock in order to make more profit and increase her family income. An increase in the income levels and control over income will ensure greater levels of economic independence for the women in the villages."},{image:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1660291964/production/images/loan/a020o0000182LmiAAE-MGS1B05_1660291962.jpg",funded:308987,still_require:51012,name:"Sunita And Group",location:" Kwakeithel Branch, Manipur",purpose:"to be able to pay for their children's primary and secondary education costs for their better future",description:"Sunita is a 40-year-old married woman and a mother of two school-going children. She lives in a small village in Imphal-West district, Manipur. She is engaged in small business and her family monthly income is Rs. 23,000. The income is not enough for all the household expenses along with the education costs of both her children. She wishes to fulfill all the dreams of her children but is worried due to the lack of proper savings. She is a part of a six members group who have similar issues."},{image:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_215,w_320/v1660291990/production/images/loan/a020o0000182LmsAAE-TMMB01_1660291988.jpg",funded:257054,still_require:42945,name:"Ibemcha And Group",location:" Sega Road Branch, Manipur",purpose:"to purchase school supplies and pay school fees",description:"Ibemcha is a 35-year-old married woman from the Imphal West district of Manipur. She has a family of 5 members and an income of INR 25,000, which barely makes their ends meet. She is a part of a group of mothers of young students who have realized the importance of a good education. But their low family incomes cannot sustain their children's high educational aspirations in life. So she and her friends have formed a group of 5 members to take up an education loan of INR 3,00,000 from Chanura, one of Milaap's field partners."}];
+//console.log(arr);
+let cartArr=JSON.parse(localStorage.getItem("loan"))||[];
+function appendData(){
+>>>>>>> 88c6f0d1da0b4d35667c8b70e34680852578733d
     let cont= document.querySelector("#container1");
     cont.innerHTML="";
     arr.forEach((el)=>{
@@ -25,6 +38,12 @@ function appendData(arr){
          div3.append(p1,p2);
          let btn= document.createElement("button");
          btn.innerText="Complete the Loan";
+         btn.addEventListener("click",()=>{
+            if(hide(el,btn)===true){
+                cartArr.push(el);
+                localStorage.setItem("loan",JSON.stringify(cartArr));
+            } 
+         })
          btn.style.width="90%";
          btn.style.padding="15px"
          btn.style.border="1px solid #9c3963";
@@ -46,6 +65,7 @@ function appendData(arr){
          let p5= document.createElement("p");
          p5.innerText=el.description;
          let div5= document.createElement("div");
+         div5.setAttribute("id","hidden");
          let input= document.createElement("input");
          input.placeholder=2500;
          let img1 = document.createElement("img");
@@ -74,9 +94,89 @@ function appendData(arr){
 }
 appendData(arr);
 
+let hide=(e,btn)=>{
+    btn.style.border="1px solid white";
+    btn.style.color="white";
+    btn.style.backgroundColor="white";
+    let cont1=document.querySelector("#hidden");
+    cont1.innerHTML=""
+    let btn1= document.createElement("button");
+    btn1.innerText="Added to Basket";
+    btn1.style.width="60%";
+    btn1.style.padding="15px"
+    btn1.style.border="1px solid #9c3963";
+    btn1.style.color="white";
+    btn1.style.backgroundColor="#bf709f";
+    btn1.style.fontSize="15px";
+    btn1.style.marginLeft="3%";
+    btn1.style.cursor="pointer";
+    btn1.style.fontWeight="bolder";
+    btn1.style.borderRadius="30px";
+      cont1.append(btn1);
+    let filtered= cartArr.filter((el)=>{
+          return el===e;
+    })
+    if(filtered.length>0){
+        return false;
+    } else {
+        return true;
+    }
+}
+
+let popupShow=()=>{
+    let cont= document.querySelector("#pp");
+    cont.style.borderTop="1px solid grey";
+     cont.innerHTML="";
+     document.querySelector("#popup11").style.visibility="visible";
+    cartArr.forEach((el,index)=>{
+        let div = document.createElement("div");
+        div.style.display="flex";
+        div.style.margin="10px";
+        div.style.justifyContent="space-evenly";
+        let img= document.createElement("img");
+        img.src=el.image;
+        img.style.height="50px"
+        img.style.marginTop="10px"
+        img.style.marginBottom="20px"
+        img.style.width="15%"
+        let h2 = document.createElement("h2");
+        h2.innerText=el.name;
+        h2.style.marginLeft="30px";
+        h2.style.marginRight="30px";
+        let p= document.createElement("p");
+        p.innerText=`Rs:- ${el.funded}`;
+        p.style.marginTop="24px";
+        let btn= document.createElement("button");
+        btn.innerText="Remove";
+        btn.style.padding="5px 10px";
+        btn.style.width="15%";
+        btn.style.margin="20px 5px";
+        btn.style.height="30px";
+        btn.addEventListener("click",()=>{
+            cartArr.splice(index,1);
+            localStorage.setItem("loan",JSON.stringify(cartArr));
+            popupShow();
+        })
+        div.append(img,h2,p,btn);
+        cont.append(div);
+    })
+}
+document.querySelector("#pay22").addEventListener("click",()=>{
+    payment();
+})
+// popupShow();
+let payment=()=>{
+    window.location.href="./payment/payment.html";
+}
 
  
 
+<<<<<<< HEAD
+=======
+document.querySelector("#src").addEventListener("click",()=>{
+    empty();
+})
+>>>>>>> 88c6f0d1da0b4d35667c8b70e34680852578733d
 
 function empty(){
     document.querySelector("#src").src="https://tse4.mm.bing.net/th?id=OIP.Xxt-0lqG3TVFV3Vdl_zTPQHaHa&pid=Api&P=0"
