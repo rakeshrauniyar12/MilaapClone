@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headers</title>
+    <link rel="stylesheet" href="headers.css">
+
+</head>
+<body>
+    <div id="navbar"></div>
+   
+    <div id="n"></div>
+</body>
+</html>
+<script type="module">
+    import headers from "../component/headers.js"
+    document.querySelector("#navbar").innerHTML=headers()
+
+    let register=document.getElementById("reg")
+    register.addEventListener("click",()=>{
+        showreg()
+    })
+    let showreg=()=>{
+        document.getElementById("popup").innerHTML=null
+        document.getElementById("popup").style.visibility="visible"
+        let login=document.createElement("a")
+        login.innerText="Login"
+        login.setAttribute("href","../signup/login.html")
+        let signup=document.createElement("a")
+        signup.innerText="Signup"
+        signup.setAttribute("href","../signup/signup.html")
+        
+        document.getElementById("popup").append(login,signup)
+    }
+        
+</script>

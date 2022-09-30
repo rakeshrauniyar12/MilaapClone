@@ -1,4 +1,5 @@
-let daata = [
+
+let data = [
     {img:"https://cimages.milaap.org/milaap/image/upload/c_fill,h_452,w_603/v1664110172/production/images/campaign/571268/medical_1553587798_1664104680.jpg",desc:"3 Year Old Kid With Multi Organ Failure On ECMO Threapy, Need Your Help",raise:"$14,37,030",create:"Obaidullah"},
     {img:"https://cimages.milaap.org/milaap/image/upload/c_fill,h_452,w_603/v1663754600/production/images/campaign/569349/IMG-20220921-WA0003_a4xvoa_1663754845.jpg",desc:"Support Priyanka To Recover From Accidental Injuries",raise:"$8,74,639",create:"T Yeswanth"},
     {img:"https://cimages.milaap.org/milaap/image/upload/c_fill,h_452,w_603/v1662482717/production/images/campaign/562290/medical_1553587798_1662482716.jpg",desc:"Save a Life - Help my father get a liver Transplant",raise:"$12,43,873",create:"Akansha Pandey"},
