@@ -2,7 +2,8 @@
   // document.getElementById("goal").innerText = `₹10,232.27` ;
   // document.getElementById("samount").innerText = ` ${10000}` ;
   // document.getElementById("gateway").innerText = `232.27` ;
-
+  import {headers} from "../component/Headers.js";
+  document.querySelector("#navbar").innerHTML=headers();
   function addToWallet(){ 
       let ramount  =   document.getElementById("ramount").value;
       document.getElementById("samount").innerText =  ramount ;  

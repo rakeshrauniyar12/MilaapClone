@@ -1,15 +1,16 @@
 
 #navbar{
-   /* background-color: aqua; */
+   position: sticky;
    background-color: white;
    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
    display: flex;
-   /* justify-content: space-between; */
+  width: 96%;
+  margin: auto;
    height: 65px;
    align-items: center;
    padding-right: 30px;
    padding-left: 10px;
-   position: sticky;
+ 
    top: 0px;
 }
 #homeimg{
@@ -50,7 +51,7 @@ button{
    background-color: #9c3353;
    color: white;
    margin-right: 100px;
-   height:70%;
+   /* height:70%; */
    font-size:16px;
    width: 220px;
    font-weight: bold;
@@ -66,7 +67,7 @@ button{
    align-items: center;
    text-align: center;
    margin-right: 5px;
-   margin-left: 1180px;
+   margin-left: 1150px;
    
    position: sticky;
    top:70px ;

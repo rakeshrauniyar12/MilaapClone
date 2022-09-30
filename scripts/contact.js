@@ -1,4 +1,5 @@
-
+import {headers} from "../component/Headers.js";
+document.querySelector("#navbar").innerHTML=headers();
 
    let divb = document.createElement('div')
    divb.setAttribute("class","divb")
