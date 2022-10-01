@@ -23,10 +23,6 @@ let data = [
 
 display();
 function display(){
-    data.forEach((ele)=>{
-        let div = document.createElement('div');
-display();
-function display(){
 
     data.forEach((ele)=>{
         let div = document.createElement('div');
@@ -120,6 +116,5 @@ btn.innerText = ' Start a fundraiser';
 btn.setAttribute('id','btn');
 fund1.append(para,btn);
 fund.append(fund1);
-        document.getElementById('cards').append(div);
-    })
-}
+    
+
