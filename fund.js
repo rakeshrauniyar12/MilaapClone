@@ -1,4 +1,3 @@
-
 let p = document.getElementById('pa');
     let med = document.getElementById('med');
     med.onclick = ()=>{
