@@ -13,6 +13,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./component/headers.css">
+    <link rel="stylesheet" href="./footer/footer.css">
     <style>
       .carousel {
         width: 80%;
@@ -497,11 +498,16 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
         </button>
       </div>
+      <div id="footer">
+        
+      </div>
       <!-- <a href="" class="all-reviews-link">See al reviews</a> -->
     </section>
     <!-- Carousel Section End -->
-
+    
     <script type="module">
+       import footer from "../component/footer.js"
+    document.querySelector("#footer").innerHTML=footer()
       import {headers} from "../component/headers.js";
       document.querySelector("#navbar").innerHTML=headers();
       let register=document.getElementById("reg")

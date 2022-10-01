@@ -32,15 +32,15 @@
     padding: 20px;
 }
 #pay22{
+    width: 20%;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 63%;
+    margin-left: 75%;
     border: 1px solid white;
     border-radius: 28px;
      cursor: pointer;
     color: white;
-    padding: 15px 40px;
-    /* font-size: 18px; */
+    padding: 15px 20px;
     font-weight: bolder;
     background-color: #9c3963;
 }

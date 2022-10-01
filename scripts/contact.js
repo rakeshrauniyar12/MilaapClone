@@ -1,6 +1,7 @@
 import {headers} from "../component/Headers.js";
 document.querySelector("#navbar").innerHTML=headers();
-
+import footer from "../component/footer.js"
+document.querySelector("#footer").innerHTML=footer()
    let divb = document.createElement('div')
    divb.setAttribute("class","divb")
 

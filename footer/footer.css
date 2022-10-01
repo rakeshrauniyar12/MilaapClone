@@ -1,12 +1,13 @@
 #footer{
-    position: fixed;
+    /* position: fixed; */
     bottom: 0px;
-    height: 350px;
+    height: 390px;
     display: flex;
     background-color:white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     justify-content: space-between;
     padding: 20px 20px 20px 20px;
+    margin-bottom: -500px;
 }
 #section1{
     margin-top: 20px;
