@@ -12,7 +12,7 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./component/headers.css">
+    <link rel="stylesheet" href="./component/headers.css" />
     <style>
       .carousel {
         width: 80%;
@@ -122,9 +122,8 @@
     </style>
   </head>
   <body>
-   <div id="navbar"></div>
-   <div id="popup">
-  </div>
+    <div id="navbar"></div>
+    <div id="popup"></div>
     <!-- Banner Section Start -->
     <section class="banner-section">
       <div class="container-box">
@@ -502,25 +501,25 @@
     <!-- Carousel Section End -->
 
     <script type="module">
-      import {headers} from "../component/headers.js";
-      document.querySelector("#navbar").innerHTML=headers();
-      let register=document.getElementById("reg")
-    register.addEventListener("click",()=>{
-        showreg()
-    })
-    let showreg=()=>{
-      console.log("hello")
-        document.getElementById("popup").innerHTML=null
-        document.getElementById("popup").style.visibility="visible"
-        let login=document.createElement("a")
-        login.innerText="Login"
-        login.setAttribute("href","./signup/login.html")
-        let signup=document.createElement("a")
-        signup.innerText="Signup"
-        signup.setAttribute("href","./signup/signup.html")
-        
-        document.getElementById("popup").append(login,signup)
-    }
+      import { headers } from "../component/headers.js";
+      document.querySelector("#navbar").innerHTML = headers();
+      let register = document.getElementById("reg");
+      register.addEventListener("click", () => {
+        showreg();
+      });
+      let showreg = () => {
+        console.log("hello");
+        document.getElementById("popup").innerHTML = null;
+        document.getElementById("popup").style.visibility = "visible";
+        let login = document.createElement("a");
+        login.innerText = "Login";
+        login.setAttribute("href", "./signup/login.html");
+        let signup = document.createElement("a");
+        signup.innerText = "Signup";
+        signup.setAttribute("href", "./signup/signup.html");
+
+        document.getElementById("popup").append(login, signup);
+      };
       // src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       // integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       // crossorigin="anonymous"
