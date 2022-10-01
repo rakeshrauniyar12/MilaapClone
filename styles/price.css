@@ -1,0 +1,340 @@
+    *{
+      margin:  0 ;
+      padding: 0;
+     }
+     /* body{
+        background-color: whitesmoke;
+     } */
+  #top {
+      width: 99%;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      background-color: #9C3353;
+      margin: 5px auto;
+   }
+
+  #top img{
+        width: 45%; 
+  }
+  #top > div:nth-child(2){
+    width: 45%;
+  }
+  #top > div:nth-child(2)  > h1{
+    color: white;
+    font-size: 30px;
+    line-height: 1.5cm;
+  }
+  #top > div:nth-child(2)  > h2{
+    color: white;
+    font-size: 22px;
+    line-height: 1cm;
+  }
+ 
+  #top > div hr{
+    width: 99%;
+  }
+
+  #top button {
+    width: 220px;
+    height: 50px;
+    border-radius: 30px;
+    color: #9C3353;
+    margin-top: 40px;
+    border: transparent;
+    font-size: 20px;
+    background-color: white;
+  }
+  
+   /* ************** */
+   #midlevel{
+    background-color: whitesmoke;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #midh1 {
+    padding-top: 15px;
+    font-weight: bold;
+  }
+  #midp {
+    margin: 25px auto;
+    font-size: 20px;
+    color: black;
+  }
+   #midbox {
+    width: 100%;
+    height: 150px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; ;
+    background-color: white;
+  }
+  #midbox p{
+      color: black;
+  }
+   #midbox1 {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+   #slidecontainer {
+    width: 100%;
+    margin: auto;
+  }
+  
+   .slider {
+     width: 80%;
+     opacity: 0.5;
+   }
+  
+  #calculate {
+    display: grid;
+    width: 33%;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: #9C3353;
+   
+  }
+  
+  #calculate > button {
+      text-align: center;
+      width: 40%;
+      border-radius: 20px;
+      margin: 30px auto;
+      border: transparent;
+      background-color: white;
+  }
+
+  /* ************************ */
+  #midbox1 > div > input{
+         border: transparent;
+  }
+  .eamount {
+        border: transparent;
+  }
+  .calcontainer {
+        background-image: url(https://www.thinknpc.org/wp-content/uploads/2018/04/MM-1024x434.png);
+        width: 99%;
+        margin: auto;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap:20%;
+   }
+
+  .calcontainer >  div:nth-child(1){
+    background-color: transparent;
+    width: 30%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    margin: 50px 0px 20px 0px;
+  }
+
+  .calcontainer >  div:nth-child(2){
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     width: 35%;
+     gap: 15px;
+     color: white;
+     background-color: transparent;
+     margin: 20px 0px 50px 0px;
+     
+  }
+     
+  .breakup > p{
+    line-height: 1cm ;
+  }
+
+  .breakup{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+  }
+
+  /* ************************ */
+  /* ************************ */
+
+#bottom {
+    width: 98%;
+    margin: auto;
+    padding: 5px;
+    /* border: 1px solid red; */
+    background-color: rgb(213, 236, 243);
+  }
+
+   #mainimage{
+    display: flex;
+    gap: 5px;
+    justify-content: space-evenly;
+
+  }
+
+  #imagefirst{
+    display: grid;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+  
+   } 
+
+    #imageback{
+      width: 99%;
+      height: 420px;
+    }
+
+  #questio{
+   text-align: center;
+   padding: 20px;
+   font-size: 35px;
+   font-weight: bold;
+ }
+ 
+  .card-section{
+     width: 65% ;
+     margin: auto;
+     display: grid;
+     gap: 15px;
+     grid-template-columns: repeat(2,1fr);
+     justify-content: center;
+     align-items: center;
+     /* border: 1px solid blue; */
+   }
+
+ .card-items{
+   width:  100%;
+   height: 150px;
+   border-radius: 10px;
+   display: grid;
+   gap: 5px;
+   justify-content: center;
+   align-items: center;
+   background-color: whitesmoke;
+  }
+
+  .description{
+      text-align: center;
+  }
+
+  .why{
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+   align-items: center;
+  }
+  .why img{
+     height: 50px;
+  }
+  .card-section button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    margin-top: 40px;
+    border: transparent;
+    font-size: 20px;
+    background-color:#9C3353
+ 
+  }
+ /* *************** */
+  #lastline {
+    border: 1px solid;
+    width: 99%;
+    height: 100px;
+    background-color: #9C3353;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
+
+ #related{
+  width: 99%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  /* align-items: center; */
+  justify-content: center;
+  background-color: transparent;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  position: relative;
+ }
+
+ #related hr{
+  width: 20%;
+  color:#9C3353
+}
+ #relatedtitle{
+   width: 85%;
+    text-align: left;
+     margin: 0px auto;
+     padding-top: 10px;
+     padding-bottom: 20px;
+ }
+  #faq{
+    width: 85%;
+    text-align: left;
+    margin: 0px auto;
+    border: 1px solid transparent;
+  }
+
+  /* #faq{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid red;
+   } */
+.accordion {
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  margin: 0px auto;
+  border: none;
+  text-align: left;
+  font-size: 15px;
+  text-align: left;
+
+  padding-top: 10px ;
+  padding-bottom: 10px;
+  background-color: transparent;
+}
+/* .active, .accordion:hover {
+  background-color: whitesmoke;
+  font-size: 16px; 
+} */
+
+.active, .accordion {
+  font-size: 18px; 
+  cursor: pointer;
+}
+
+ .panel {
+    width: 100%;
+    margin: 0px auto;
+    padding: 18px;
+    text-align: left;
+    display: none;
+    line-height: 0.5cm;
+    background-color: transparent;
+    overflow: hidden;
+   
+}
+ 
+/* ************************ */
+
