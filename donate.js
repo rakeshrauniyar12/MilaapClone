@@ -53,6 +53,7 @@ function dis(){
     // }
     // dataaa();
     // console.log(data);
+
     display();
 function display(){
 
@@ -179,6 +180,4 @@ fund1.append(para,btn);
 fund.append(fund1);
     
 
-
-// =====================================
 
