@@ -4,7 +4,7 @@ let headers=()=>{
 <div id="left">
     
     <h3><a href="">Home</a></h3>
-    <h3><a href="">Donate</a></h3>
+    <h3><a href="donate.html">Donate</a></h3>
     <h3><a href="">Lend</a></h3>
     <h3><a href="">Pricing</a></h3>
     <h3><a href="">Contact us</a></h3>
@@ -16,4 +16,4 @@ let headers=()=>{
 </div>
 </div>`
 }
-export default headers
+export  {headers}
