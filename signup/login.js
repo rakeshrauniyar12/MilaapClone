@@ -9,14 +9,25 @@ let login=()=>{
     let password=document.getElementById("pass").value
  
     let user_data={email,password}
-    let flag=false
-    signup_arr.forEach(ele => {
-        if(ele.email==user_data.email && ele.password===user_data.password){
-           flag=true
-            localStorage.setItem("signin",flag)
-            
-        }
-    });
-    
+    if(checkUser(user_data)===true){
+    alert("You are Successfully login");
+    } else {
+        alert("Your given credential does not match");
+    }
+    document.getElementById("email").value="";
+    document.getElementById("pass").value="";
+
+
+}
+let checkUser=(e)=>{
+     let filtered=signup_arr.filter((el)=>{
+        return e.email===el.email && e.password===el.password;
+     })
+     if(filtered.length>0){
+        return true;
+     }
+     else {
+        return false;
+     }
 }
 
