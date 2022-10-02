@@ -1,12 +1,5 @@
-<<<<<<< HEAD
-import {headers} from "../component/headers.js";
-document.querySelector("#navbar").innerHTML=headers();
-import footer from "../component/footer.js"
-document.querySelector("#footer").innerHTML=footer();
-let data = [
-=======
+
 let daata = [
->>>>>>> 816e98a80ad23e18a4b3dbe437b0cf637d51f8ce
     {img:"https://cimages.milaap.org/milaap/image/upload/c_fill,h_452,w_603/v1664110172/production/images/campaign/571268/medical_1553587798_1664104680.jpg",desc:"3 Year Old Kid With Multi Organ Failure On ECMO Threapy, Need Your Help",raise:"$14,37,030",create:"Obaidullah"},
     {img:"https://cimages.milaap.org/milaap/image/upload/c_fill,h_452,w_603/v1663754600/production/images/campaign/569349/IMG-20220921-WA0003_a4xvoa_1663754845.jpg",desc:"Support Priyanka To Recover From Accidental Injuries",raise:"$8,74,639",create:"T Yeswanth"},
     {img:"https://cimages.milaap.org/milaap/image/upload/c_fill,h_452,w_603/v1662482717/production/images/campaign/562290/medical_1553587798_1662482716.jpg",desc:"Save a Life - Help my father get a liver Transplant",raise:"$12,43,873",create:"Akansha Pandey"},
@@ -15,16 +8,13 @@ let daata = [
     {img:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_452,w_603/v1661095595/production/images/campaign/553835/nuvjufeu6mct6jcba4ie_1661095598.jpg",desc:"Aravind(TR) Srinivasan Birthday Fundraiser For Nellai Cancer Hospital",raise:"$8,56,795",create:"Tharuvai Angel"},
     
 ];
-<<<<<<< HEAD
 function dis(){
-=======
-let data = JSON.parse(localStorage.getItem('milaap'))||[];
-// let arr = [];
-// document.getElementById('submit').addEventListener('click',function(){
-    console.log(data);
-    function dis(){
-    console.log("sachin");
->>>>>>> 816e98a80ad23e18a4b3dbe437b0cf637d51f8ce
+    let data = JSON.parse(localStorage.getItem('milaap'))||[];
+    // let arr = [];
+    // document.getElementById('submit').addEventListener('click',function(){
+        // console.log(data);
+        // function dis(){
+        console.log("sachin");
     let img = document.getElementById('image').value;
     let name = document.getElementById('name').value;
     let desc = document.getElementById('desc').value;
@@ -54,7 +44,7 @@ let data = JSON.parse(localStorage.getItem('milaap'))||[];
 }
 disp();
 function disp(){
-    data.forEach((ele)=>{
+    daata.forEach((ele)=>{
     let div = document.createElement('div');
     div.setAttribute('class','card');
     let img = document.createElement('img');
@@ -95,7 +85,7 @@ function disp(){
     display();
 function display(){
 
-    data.forEach((ele)=>{
+    daata.forEach((ele)=>{
         let div = document.createElement('div');
         div.setAttribute('class','card');
         let img = document.createElement('img');
