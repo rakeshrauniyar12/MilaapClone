@@ -1,94 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lend</title>
-    <link rel="stylesheet" href="./lend.css">
-    <link rel="stylesheet" href="../component/headers.css">
+    <link rel="stylesheet" href="./lend.css" />
+    <link rel="stylesheet" href="../component/headers.css" />
     <style>
-#navb{
-    height:60px
-}
-#popup11{
-    width: 50%;
-    margin: auto;
-    visibility: hidden;
-    margin-top: -155px;
-    transition: all 1s;
-    background-color: white;
-    transform: scale(1);
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-}
-#navbar>#raiser22{
-    margin-top: 20px;
-}
+      #navb {
+        height: 60px;
+      }
+      #popup11 {
+        width: 50%;
+        margin: auto;
+        visibility: hidden;
+        margin-top: -155px;
+        transition: all 1s;
+        background-color: white;
+        transform: scale(1);
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+          rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+          rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+      }
+      #navbar > #raiser22 {
+        margin-top: 20px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- <a href=".></a> -->
     <div id="navbar"></div>
     <div id="upper">
-        <h1>You can help a family fundraise for a better life. Make a loan.</h1>
-        <p style="color: grey;font-size: 18px">Select a loan you feel the most for, based on the cause, geography or the fundraising need.</p>
+      <h1>You can help a family fundraise for a better life. Make a loan.</h1>
+      <p style="color: grey; font-size: 18px">
+        Select a loan you feel the most for, based on the cause, geography or
+        the fundraising need.
+      </p>
     </div>
-        
-      <div id="main_container"> 
-        <div id="main_filter">
-            <p style="font-size: 18px;margin-bottom: 50px;">Filter By</p>
-            <div id="filter">
-                <div id="upper_part">
-                    <P>Cause</P>
-                    <img id="src" src="https://tse3.mm.bing.net/th?id=OIP.PLddS2AVcVsb-PDi3PDhpgHaHa&pid=Api&P=0" alt="">
-                </div>
-             <div id="input"></div>
-                
-            </div>
-            <div id="filter">
-                <div id="upper_part">
-                    <P>State</P>
-                    <img id="src1" src="https://tse3.mm.bing.net/th?id=OIP.PLddS2AVcVsb-PDi3PDhpgHaHa&pid=Api&P=0" alt="">
-                </div>
-             <div id="input1"></div>
-                
-            </div>
-            <div id="filter">
-                <div id="upper_part">
-                    <P>Repayment</P>
-                    <img id="src2" src="https://tse3.mm.bing.net/th?id=OIP.PLddS2AVcVsb-PDi3PDhpgHaHa&pid=Api&P=0" alt="">
-                </div>
-             <div id="input2"></div>
-                
-            </div>
-            <div id="filter">
-                <div id="upper_part">
-                    <P>Gender</P>
-                    <img id="src3" src="https://tse3.mm.bing.net/th?id=OIP.PLddS2AVcVsb-PDi3PDhpgHaHa&pid=Api&P=0" alt="">
-                </div>
-             <div id="input3"></div>
-                
-            </div>
+
+    <div id="main_container">
+      <div id="main_filter">
+        <p style="font-size: 18px; margin-bottom: 50px">Filter By</p>
+        <div id="filter">
+          <div id="upper_part">
+            <p>Cause</p>
+            <img
+              id="src"
+              src="https://tse3.mm.bing.net/th?id=OIP.PLddS2AVcVsb-PDi3PDhpgHaHa&pid=Api&P=0"
+              alt=""
+            />
+          </div>
+          <div id="input"></div>
         </div>
-         <div id="sortCont22">
-           <div id="sorting"><p>Sort by</p>
-               <select id="select">
-                <option value="interest rate">Interest Rate</option>
-                <option value="expiry">Expiry</option>
-                <option value="pending amount">Pending Amount</option>
-                <option value="popularity">Popularity</option>
-                <option value="recent">Recent</option>
-               </select>       
+        <div id="filter">
+          <div id="upper_part">
+            <p>State</p>
+            <img
+              id="src1"
+              src="https://tse3.mm.bing.net/th?id=OIP.PLddS2AVcVsb-PDi3PDhpgHaHa&pid=Api&P=0"
+              alt=""
+            />
+          </div>
+          <div id="input1"></div>
+        </div>
+        <div id="filter">
+          <div id="upper_part">
+            <p>Repayment</p>
+            <img
+              id="src2"
+              src="https://tse3.mm.bing.net/th?id=OIP.PLddS2AVcVsb-PDi3PDhpgHaHa&pid=Api&P=0"
+              alt=""
+            />
+          </div>
+          <div id="input2"></div>
+        </div>
+        <div id="filter">
+          <div id="upper_part">
+            <p>Gender</p>
+            <img
+              id="src3"
+              src="https://tse3.mm.bing.net/th?id=OIP.PLddS2AVcVsb-PDi3PDhpgHaHa&pid=Api&P=0"
+              alt=""
+            />
+          </div>
+          <div id="input3"></div>
+        </div>
+      </div>
+      <div id="sortCont22">
+        <div id="sorting">
+          <p>Sort by</p>
+          <select id="select">
+            <option value="interest rate">Interest Rate</option>
+            <option value="expiry">Expiry</option>
+            <option value="pending amount">Pending Amount</option>
+            <option value="popularity">Popularity</option>
+            <option value="recent">Recent</option>
+          </select>
         </div>
 
-           <div id="container1"></div>
-         </div>
-       
+        <div id="container1"></div>
+      </div>
     </div>
     <div id="popup11">
-        <h3 id="basket44">Your Basket</h3>
-        <div id="pp"></div>
-        <button id="pay22">Pay</button>
+      <h3 id="basket44">Your Basket</h3>
+      <div id="pp"></div>
+      <button id="pay22">Pay</button>
     </div>
-</body>
+  </body>
 </html>
 <script src="./lend.js" type="module"></script>

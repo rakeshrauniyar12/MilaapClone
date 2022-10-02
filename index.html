@@ -6,7 +6,11 @@
     <title>Home</title>
     <!-- <link rel="stylesheet" href="./navbar.css" /> -->
     <link rel="stylesheet" href="./home.css" />
+
+    <link rel="stylesheet" href="./footer/footer.css" />
+
     <!-- <link rel="stylesheet" href="./footer/footer.css" /> -->
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,7 +21,16 @@
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/carousel.css" />
 
+    <link rel="stylesheet" href="./styles/popup.css" />
     <style>
+      .pp {
+        margin-top: 80px;
+        margin-left: 80%;
+      }
+
+
+    <style>
+
       .footer-section {
         width: 100%;
         display: flex;
@@ -26,7 +39,11 @@
         align-items: center;
         background-color: #fff;
         box-shadow: 0 0 6px 0 rgb(156 51 83 / 60%);
+
+        /* padding: 0 0 0 40px; */
+
         padding: 0 0 0 40px;
+
       }
       #footer {
         width: 100%;
@@ -41,11 +58,16 @@
         width: 40%;
         height: 100%;
         margin: auto;
+
+        /* border: 1px solid red; */
+
         border: 1px solid red;
+
       }
     </style>
   </head>
-  <body>
+  <body>    
+    
     <div id="navbar"></div>
     <div id="popup"></div>
     <!-- Banner Section Start -->
@@ -57,7 +79,7 @@
           <h2 class="home-banner-text">
             Raise funds online for medical emergencies and social causes
           </h2>
-          <a href=""
+          <a href="./fundraise.html"
             ><button class="start-btn">Start a Funraiser - it's FREE</button></a
           >
           <div class="banner-numbers">
@@ -427,6 +449,10 @@
     </section>
     <!-- Carousel Section End -->
 
+
+    <div class="footer-section">
+      <div id="footer">yaha par footer banana hai !</div>
+
     <!-- <script type="module">
       import { headers } from "../component/Headers.js";
       document.querySelector("#navbar").innerHTML = headers();
@@ -495,6 +521,7 @@
         <div class="pricing-faq-section"></div>
         <div class="download-app-section"></div>
       </div>
+
     </div>
   </body>
 </html>
@@ -503,6 +530,44 @@
   import { navbar } from "./component/navbar.js";
   document.getElementById("navbar").innerHTML = navbar();
 </script>
+
+
+<script type="module">
+  import footer from "./component/footer.js";
+  document.getElementById("footer").innerHTML = footer();
+</script>
+
+<script src="./component/popup.js"></script>
+
+<!-- <script type="module">
+  import { navbar } from "./component/navbar.js";
+  document.getElementById("navbar").innerHTML = navbar();
+  // document.querySelector("#navbar").innerHTML = navbar();
+  // document.getElementById("navbar").innerHTML = navbar();
+  document.getElementById("popup").style.visibility = "hidden";
+  let register = document.getElementById("reg");
+  register.addEventListener("click", () => {
+    showreg();
+  });
+  let showreg = () => {
+    console.log("hello");
+    document.getElementById("popup").innerHTML = null;
+    document.getElementById("popup").style.visibility = "visible";
+    let div = document.createElement("div");
+    div.setAttribute("class", "pp");
+    let login = document.createElement("a");
+
+    login.innerText = "Login";
+    login.setAttribute("href", "./signup/login.html");
+    let signup = document.createElement("a");
+    signup.innerText = "Signup";
+    signup.setAttribute("href", "./signup/signup.html");
+    div.append(login, signup);
+    // document.getElementById("popup").append(login, signup);
+    document.getElementById("popup").append(div);
+  };
+</script> -->
+
 
 <!-- <script type="module">
   import footer from "./component/footer.js";
@@ -541,4 +606,8 @@
     indicatorParent.children[index].classList.add("selected");
     slider.style.transform = "translateX(" + index * -25 + "%)";
   });
+
 </script>
+
+</script>
+
