@@ -36,6 +36,7 @@ header {
   cursor: pointer;
 }
 .nav__links {
+  width: 140%;
   list-style: none;
   margin-top: 20px;
 }
@@ -69,7 +70,7 @@ header {
   box-shadow: 0 0 6px 0 rgb(156 51 83 / 60%);
 }
 .cta {
-  margin-left: 110px;
+  margin-left: 150px;
 }
 
 #reg {
