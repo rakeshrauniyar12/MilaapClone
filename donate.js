@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 import {headers} from "../component/headers.js";
 document.querySelector("#navbar").innerHTML=headers();
 import footer from "../component/footer.js"
 document.querySelector("#footer").innerHTML=footer();
 let data = [
+=======
+let daata = [
+>>>>>>> 816e98a80ad23e18a4b3dbe437b0cf637d51f8ce
     {img:"https://cimages.milaap.org/milaap/image/upload/c_fill,h_452,w_603/v1664110172/production/images/campaign/571268/medical_1553587798_1664104680.jpg",desc:"3 Year Old Kid With Multi Organ Failure On ECMO Threapy, Need Your Help",raise:"$14,37,030",create:"Obaidullah"},
     {img:"https://cimages.milaap.org/milaap/image/upload/c_fill,h_452,w_603/v1663754600/production/images/campaign/569349/IMG-20220921-WA0003_a4xvoa_1663754845.jpg",desc:"Support Priyanka To Recover From Accidental Injuries",raise:"$8,74,639",create:"T Yeswanth"},
     {img:"https://cimages.milaap.org/milaap/image/upload/c_fill,h_452,w_603/v1662482717/production/images/campaign/562290/medical_1553587798_1662482716.jpg",desc:"Save a Life - Help my father get a liver Transplant",raise:"$12,43,873",create:"Akansha Pandey"},
@@ -11,7 +15,16 @@ let data = [
     {img:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_452,w_603/v1661095595/production/images/campaign/553835/nuvjufeu6mct6jcba4ie_1661095598.jpg",desc:"Aravind(TR) Srinivasan Birthday Fundraiser For Nellai Cancer Hospital",raise:"$8,56,795",create:"Tharuvai Angel"},
     
 ];
+<<<<<<< HEAD
 function dis(){
+=======
+let data = JSON.parse(localStorage.getItem('milaap'))||[];
+// let arr = [];
+// document.getElementById('submit').addEventListener('click',function(){
+    console.log(data);
+    function dis(){
+    console.log("sachin");
+>>>>>>> 816e98a80ad23e18a4b3dbe437b0cf637d51f8ce
     let img = document.getElementById('image').value;
     let name = document.getElementById('name').value;
     let desc = document.getElementById('desc').value;
@@ -23,11 +36,10 @@ function dis(){
             raise:amount,
             img:img
         };
-        // console.log(obj);
-        // data.push(obj);
-        localStorage.setItem('milaap',JSON.stringify(obj));
-        data = JSON.parse(localStorage.getItem('milaap'));
-        daata.push(data);
+        console.log(obj);
+        data.push(obj);
+        localStorage.setItem('milaap',JSON.stringify(data));
+        // daata.push(data);
         
         document.getElementById('image').value=null;
         document.getElementById('name').value= null;
@@ -38,6 +50,32 @@ function dis(){
     }else{
         alert('fill required credentials !');
     }
+// });
+}
+disp();
+function disp(){
+    data.forEach((ele)=>{
+    let div = document.createElement('div');
+    div.setAttribute('class','card');
+    let img = document.createElement('img');
+    img.setAttribute('class','img')
+    img.src = ele.img;
+    let desc = document.createElement('p');
+    desc.innerText = ele.desc;
+    let cr = document.createElement('div');
+    cr.setAttribute('class','cr');
+    let r = document.createElement('div');
+    let raise = document.createElement('p');
+    raise.innerText = `Raised: ${ele.raise}`;
+    r.append(raise);
+    let c = document.createElement('div');
+    let create = document.createElement('p');
+    create.innerText = `Created By: ${ele.create}`;
+    c.append(create);
+    cr.append(r,c);
+    div.append(img,desc,cr);
+    document.querySelector('#card2').append(div);
+})
 }
 
     // let obj = {
@@ -66,7 +104,7 @@ function display(){
         let desc = document.createElement('p');
         desc.innerText = ele.desc;
         let cr = document.createElement('div');
-        cr.setAttribute('id','cr');
+        cr.setAttribute('class','cr');
         let r = document.createElement('div');
         let raise = document.createElement('p');
         raise.innerText = `Raised: ${ele.raise}`;
@@ -178,6 +216,3 @@ btn.setAttribute('id','btn');
 btn.onclick = ()=>{window.location.href = "fundraise.html";}
 fund1.append(para,btn);
 fund.append(fund1);
-    
-
-
