@@ -1,0 +1,152 @@
+.content {
+  width: 80%;
+  height: 80%;
+  /* border: 2px solid blue; */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+.carousel {
+  /* border: 2px solid #416be4; */
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+  background: transparent;
+  /* box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1); */
+}
+.slider {
+  display: flex;
+  height: 100%;
+  width: 400%;
+}
+.secs {
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+}
+.left,
+.right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.arrow i {
+  font-size: 70px;
+  /* -webkit-user-select: none; */
+  color: #416be4;
+}
+.left {
+  left: 10px;
+}
+.right {
+  right: 10px;
+}
+.control ul {
+  list-style: none;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  transform: translate(-50%);
+}
+.control ul li {
+  width: 10px;
+  height: 10px;
+  background: #333;
+  border: 2px solid #333;
+  border-radius: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+.control ul li.selected {
+  background: transparent;
+}
+
+.testimonial-profile {
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 5px 0 rgb(33 33 33 / 20%);
+  box-shadow: 0 2px 5px 0 rgb(33 33 33 / 20%);
+  background-color: #fff;
+  padding: 20px 0;
+  width: 182px;
+  text-align: center;
+  position: relative;
+  height: 189px;
+  top: 0px;
+  left: 56px;
+  display: inline-block;
+}
+.testimonial-description {
+  width: 549px;
+  padding: 22px 60px 22px 85px;
+  height: 255px;
+  -webkit-box-shadow: 0 2px 8px 0 rgb(51 33 33 / 13%);
+  box-shadow: 0 2px 8px 0 rgb(51 33 33 / 13%);
+  background: #fff;
+  padding: 22px 60px 22px 85px;
+  vertical-align: top;
+  border-radius: 6px;
+  /* margin-left: 182px; */
+}
+.step-icon {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #9c3353;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.step-title {
+  font-size: 16px;
+  color: #5d5d5d;
+  margin: 10px 0 2px;
+}
+.step-social {
+  margin: 2px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.social-icon {
+  display: inline-block;
+  vertical-align: top;
+  width: 19px;
+  height: 19px;
+}
+.step-url {
+  font-size: 13px;
+  color: #6c6c6c;
+  margin-left: 2px;
+  font-family: AvenirLTPro-Book;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 121px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.step-info {
+  font-size: 18px;
+  color: #212121;
+  font-family: AvenirLTPro-Book;
+  margin: 36px 0;
+  overflow: hidden;
+  /* position: relative; */
+  line-height: 26px;
+  max-height: 245px;
+  text-align: justify;
+  margin-right: -1em;
+  padding-right: 1em;
+}
