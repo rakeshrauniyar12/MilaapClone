@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 .logo {
   width: 120px;
   margin-right: 45px;
@@ -16,6 +17,7 @@
   width: 80%;
   height: auto;
   margin: auto;
+  margin-top: 175px;
   /* border: 2px solid red; */
   /* background-color: white; */
   border-radius: 6px;
@@ -81,7 +83,6 @@ button {
   font-size: 16px;
   font-family: AvenirLTPro-Book;
   list-style: none;
-  
 }
 
 .start-btn {
@@ -351,4 +352,35 @@ button {
   border: none;
   color: white;
   font-size: 18px;
+}
+
+/* .carousel {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+}
+.carousel-inner {
+  width: 100%;
+}
+.cards-carousel {
+  width: 65%;
+  height: 400px;
+  /* border: 2px solid blue; */
+/* margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+/* } */
+.carousel-section {
+  display: block;
+  background-image: url(https://assets.milaap.org/packs/_/assets/images/home/testimonial-bg-703d695dffc4e175064a2bd22140a262.png);
+  background-position: 0 0;
+  background-size: 100% 100%;
+  padding: 125px 0;
+  margin: 33px 0;
+}
+.all-reviews-link {
+  display: block;
+  text-align: center;
+  text-decoration: underline;
 }
