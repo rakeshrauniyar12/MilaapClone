@@ -8,8 +8,9 @@ let daata = [
     {img:"https://cimages.milaap.org/milaap/image/upload/c_fill,g_faces,h_452,w_603/v1661095595/production/images/campaign/553835/nuvjufeu6mct6jcba4ie_1661095598.jpg",desc:"Aravind(TR) Srinivasan Birthday Fundraiser For Nellai Cancer Hospital",raise:"$8,56,795",create:"Tharuvai Angel"},
     
 ];
+let data = JSON.parse(localStorage.getItem('milaap'))||[]
 function dis(){
-    let data = JSON.parse(localStorage.getItem('milaap'))||[];
+     
     // let arr = [];
     // document.getElementById('submit').addEventListener('click',function(){
         // console.log(data);
@@ -44,7 +45,7 @@ function dis(){
 }
 disp();
 function disp(){
-    daata.forEach((ele)=>{
+    data.forEach((ele)=>{
     let div = document.createElement('div');
     div.setAttribute('class','card');
     let img = document.createElement('img');
