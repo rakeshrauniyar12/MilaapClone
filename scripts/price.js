@@ -6,6 +6,9 @@
   document.querySelector("#footer").innerHTML=footer()
   import {headers} from "../component/Headers.js";
   document.querySelector("#navbar").innerHTML=headers();
+  document.querySelector("#cal").addEventListener("click",()=>{
+    addToWallet();
+  })
   function addToWallet(){ 
       let ramount  =   document.getElementById("ramount").value;
       document.getElementById("samount").innerText =  ramount ;  

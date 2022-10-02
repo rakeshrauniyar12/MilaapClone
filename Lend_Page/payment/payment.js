@@ -33,7 +33,7 @@ let body = ()=>{
     btn.innerText="Pay";
     btn.addEventListener("click",()=>{
         alert("Your Payment is successful");
-      //  window.location.href="";
+       window.location.href="../../index.html";
     })
     btn.style.marginLeft="35%"
     btn.style.border="1px solid transparent"

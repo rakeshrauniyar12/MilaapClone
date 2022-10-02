@@ -8,6 +8,9 @@ let h1tag = document.createElement("h3");
 h1tag.innerText =
   "Thanks for contacting us! We will be in touch with you shortly.";
 divb.append(h1tag);
+document.querySelector("#secc").addEventListener("click",()=>{
+  sendmessage();
+})
 function sendmessage() {
   let container = document.getElementById("scontainer");
   container.append(divb);
