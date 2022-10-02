@@ -6,7 +6,11 @@
     <title>Home</title>
     <!-- <link rel="stylesheet" href="./navbar.css" /> -->
     <link rel="stylesheet" href="./home.css" />
+
     <link rel="stylesheet" href="./footer/footer.css" />
+
+    <!-- <link rel="stylesheet" href="./footer/footer.css" /> -->
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,12 +20,17 @@
     <!-- <link rel="stylesheet" href="./component/headers.css" /> -->
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/carousel.css" />
+
     <link rel="stylesheet" href="./styles/popup.css" />
     <style>
       .pp {
         margin-top: 80px;
         margin-left: 80%;
       }
+
+
+    <style>
+
       .footer-section {
         width: 100%;
         display: flex;
@@ -30,7 +39,11 @@
         align-items: center;
         background-color: #fff;
         box-shadow: 0 0 6px 0 rgb(156 51 83 / 60%);
+
         /* padding: 0 0 0 40px; */
+
+        padding: 0 0 0 40px;
+
       }
       #footer {
         width: 100%;
@@ -45,7 +58,11 @@
         width: 40%;
         height: 100%;
         margin: auto;
+
         /* border: 1px solid red; */
+
+        border: 1px solid red;
+
       }
     </style>
   </head>
@@ -432,8 +449,79 @@
     </section>
     <!-- Carousel Section End -->
 
+
     <div class="footer-section">
       <div id="footer">yaha par footer banana hai !</div>
+
+    <!-- <script type="module">
+      import { headers } from "../component/Headers.js";
+      document.querySelector("#navbar").innerHTML = headers();
+      let register = document.getElementById("reg");
+      register.addEventListener("click", () => {
+        showreg();
+      });
+      let showreg = () => {
+        console.log("hello");
+        document.getElementById("popup").innerHTML = null;
+        document.getElementById("popup").style.visibility = "visible";
+        let login = document.createElement("a");
+        login.innerText = "Login";
+        login.setAttribute("href", "./signup/login.html");
+        let signup = document.createElement("a");
+        signup.innerText = "Signup";
+        signup.setAttribute("href", "./signup/signup.html");
+        document.getElementById("popup").append(login, signup);
+      };
+    </script> -->
+    <div class="footer-section">
+      <div id="footer">
+        <div class="categories-section">
+          <div>
+            <div class="up-header">
+              <span style="font-size: 18px; font-weight: 600"
+                >Donate towards</span
+              >
+            </div>
+            <div class="ft-links">
+              <a
+                href="/crowdfunding/fundraisers/?filter[category_id]=10"
+                class="category"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                >
+                  <g
+                    id="prefix__Group_2007"
+                    data-name="Group 2007"
+                    transform="translate(11.397 -9.81)"
+                  >
+                    <path
+                      id="prefix__Layer_2"
+                      d="M26 34.016l.867 1.739a3.239 3.239 0 0 0 2.356 1.75v.328a5.833 5.833 0 0 0 11.667 0V32.5a3.333 3.333 0 1 0-1.111 0v5.328a4.722 4.722 0 0 1-9.444 0V37.5a3.239 3.239 0 0 0 2.356-1.75l.867-1.739a6.061 6.061 0 0 0 2.333-4.794v-2.774a2.222 2.222 0 0 0-1.144-1.933 1.118 1.118 0 1 0-.35 1.1 1.111 1.111 0 0 1 .383.833v2.778a4.95 4.95 0 0 1-1.961 3.967l-.044.033a5 5 0 0 1-5.989 0l-.044-.028a5 5 0 0 1-1.961-3.972v-2.778a1.111 1.111 0 0 1 .744-1.044 1.119 1.119 0 1 0-.056-1.133 2.222 2.222 0 0 0-1.8 2.178v2.778A6.061 6.061 0 0 0 26 34.016zm14.333-4.239a.556.556 0 1 1 .556-.556.556.556 0 0 1-.556.556zm-2.222-.556a2.222 2.222 0 1 1 2.778 2.144v-.555a1.667 1.667 0 1 0-1.111 0v.556a2.222 2.222 0 0 1-1.667-2.145zm-6.417 6.039a2.144 2.144 0 0 1-3.833 0l-.139-.283h.067l.311.094.156.044c.156.039.306.072.461.1a6.183 6.183 0 0 0 2.089 0q.228-.039.45-.1l.167-.044.3-.094h.072z"
+                      data-name="Layer 2"
+                      transform="translate(-35.063 -13.855)"
+                      style="fill: #9c3353"
+                    ></path>
+                  </g>
+                </svg>
+
+                <span class="first">Medical</span>
+              </a>
+            </div>
+
+            <a href=""></a>
+            <a href=""></a>
+          </div>
+        </div>
+        <div class="about-milaap"></div>
+        <div class="address-section"></div>
+        <div class="pricing-faq-section"></div>
+        <div class="download-app-section"></div>
+      </div>
+
     </div>
   </body>
 </html>
@@ -442,6 +530,7 @@
   import { navbar } from "./component/navbar.js";
   document.getElementById("navbar").innerHTML = navbar();
 </script>
+
 
 <script type="module">
   import footer from "./component/footer.js";
@@ -478,6 +567,7 @@
     document.getElementById("popup").append(div);
   };
 </script> -->
+
 
 <!-- <script type="module">
   import footer from "./component/footer.js";
@@ -516,4 +606,8 @@
     indicatorParent.children[index].classList.add("selected");
     slider.style.transform = "translateX(" + index * -25 + "%)";
   });
+
 </script>
+
+</script>
+
