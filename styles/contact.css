@@ -1,247 +1,217 @@
-
-
-
-   *{
-      margin:   0px;
-      padding: 0px;
- 
-    }
- #top {
-   width: 99%;
-   gap: 5px;
-   justify-content: centre;
-   align-items: center;
-   background-color: #9C3353;
-   margin: 5px auto;
-   padding: 20px 0px 30px 0px;
- }
- 
- #tcentre{
- display: flex;
- justify-content: space-evenly;
- align-items: center;
- gap: 5px;
- width: 85%;
- height: 100%;
- margin: 20px auto;
- background-color: #9C3353;
- }
- #topone{
- width: 50%;
- }
- #toptwo{
-       width: 36%;
-      background-color: transparent;
- }
- 
- #top h1 {
- color: white;
- font-size: 35px;
- line-height: 180%;
-  }
- #top p {
-    line-height: 150%;
-   color: white;
- font-size: 20px;
- } 
- 
- #location{
-    width: 90%;
-      text-align: left;
-      margin: 5px auto;
-      line-height: 1cm;
- }
- #location h1{
-     padding: 10px;
- }
- 
- #location p{
-    font-size: 15px;
-    font-weight: bold;
-    color:  #9C3353;
- }
- 
-   #location hr{
-   width: 400px;
-   border: 1px solid  #9C3353;
-    margin-bottom: 10px; 
-   }
- 
- 
-  #mapcontainer{
-    width: 195vh;
-    height: 60vh;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-       /* border: 1px solid blueviolet; */
-       margin: auto;
-       border-radius: 5px;
- }
- 
- iframe{
-    width: 195vh;
-     height: 60vh;
-     border-radius: 5px;
-     /* filter: invert(100%); */
- }
- 
- #last_box{
- width: 99%;
- display: grid;
- gap: 20px;
- padding: 50px 0px 50px 0px;
- justify-content: center;
- align-items: center;
- margin: auto;
- margin-top: 20px;
- border: 1px solid whitesmoke;
- background-color: transparent;
- background-image: linear-gradient(106deg, #339C8E 56%, #86E1C4 100%);
- }
- 
- 
- 
- #social_media{
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#top {
+  width: 99%;
+  gap: 5px;
+  justify-content: centre;
+  align-items: center;
+  background-color: #9c3353;
+  margin: 5px auto;
+  padding: 20px 0px 30px 0px;
+}
+#tcentre {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5px;
+  width: 85%;
+  height: 100%;
+  margin: 20px auto;
+  background-color: #9c3353;
+}
+#topone {
+  width: 50%;
+  background: transparent;
+}
+#toptwo {
+  width: 36%;
+  background-color: transparent;
+}
+#top h1 {
+  color: white;
+  font-size: 35px;
+  line-height: 180%;
+}
+#top p {
+  line-height: 150%;
+  color: white;
+  font-size: 20px;
+}
+#location {
+  width: 90%;
+  text-align: left;
+  margin: 5px auto;
+  line-height: 1cm;
+}
+#location h1 {
+  padding: 10px;
+}
+#location p {
+  font-size: 15px;
+  font-weight: bold;
+  color: #9c3353;
+}
+#location hr {
+  width: 400px;
+  border: 1px solid #9c3353;
+  margin-bottom: 10px;
+}
+#mapcontainer {
+  width: 195vh;
+  height: 60vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid blueviolet; */
+  margin: auto;
+  border-radius: 5px;
+}
+iframe {
+  width: 195vh;
+  height: 60vh;
+  border-radius: 5px;
+  /* filter: invert(100%); */
+}
+#last_box {
+  width: 99%;
+  display: grid;
+  gap: 20px;
+  padding: 50px 0px 50px 0px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid whitesmoke;
+  background-color: transparent;
+  background-image: linear-gradient(106deg, #339c8e 56%, #86e1c4 100%);
+}
+#social_media {
   display: flex;
   gap: 20px;
   justify-content: space-evenly;
- }
- #jtc{
+  background: transparent;
+}
+#jtc {
   color: white;
- }
- #social_sites{
- color: white;
- }
- 
- .fbpage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    width: 250px;
-    border: 1px solid whitesmoke;
-    }
-    
- .twitterpage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    width: 250px;
-    border: 1px solid whitesmoke;
-    }
-    
- .instapage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    width: 250px;
-    border: 1px solid whitesmoke;
-    }
-    
- .ytubepage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    width: 250px;
-    border: 1px solid whitesmoke;
-    }
- 
- 
- /* ****************** */
- 
- #form > button {
-    margin-top: 30px;
-    width: 300px;
-    height: 50px;
-    border-radius: 25px;
-    background-color: #9C3353;
-    color: white;
-    font-size: large;
-    border: transparent;
-    
-    }
- 
- #suggestionbox{
- display: grid;
- width: 99%;
- margin: auto;
- padding-top: 15px;
- padding-bottom: 100px;
-    /* border: 1px solid gray; */
- }
- 
- #know_what {
-    /* border: 1px solid blue; */
-    width:85%;
-    margin: auto;
- }
- 
- #credential{
-       width: 85%;
-       display: flex;
-       gap:10%;
-       margin: 30px auto ;
-       justify-content: flex-start;
-       align-items: center;
-       padding: 10px 0 10px 0;
-       
-  }
-  #credential input{
-    width: 400px;
-    height: 20px;
-    border-width: 0 0 1px;
-    /* border-color: gray ; */
-  }
-   /* #credential input:focus {
-     padding: 1px ;
-     width: 400px;
-  } */
- 
- #queries  {
-    width: 85%;
-    margin: 10px auto;
-    height: 150px;
-    border-radius: 5px;
-     border: 1px solid whitesmoke;
-  }
- 
-  #send{
-    width: 85%;
-    margin: 10px auto;
-   }
- 
-  #send > button{
-     width: 220px;
-     height: 50px;
-     border-radius: 30px;
-     background-color: #9C3353;
-     margin: 5px 0 5px 0;
-     border: transparent;
-     font-size: 20px;
-     color : white;
-  }
- 
-  #scontainer{
-     width: 85%;
-     margin: 5px auto;
-     background-color : #e0ffc7;
-  
-   }
- 
-  .divb{
-     width: 100%;
-     padding: 30px 0 30px 0;
-     display: flex;
-     margin: auto;
-      align-items: center;
-     background-color : #e0ffc7;
-     border-radius: 10px;
-     border: 1px solid gray ;
-  }
-  .divb > h3{
-     margin-left: 50px;
-  }
+  background: transparent;
+}
+#social_sites {
+  color: white;
+  background: transparent;
+}
+.fbpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 250px;
+  border: 1px solid whitesmoke;
+}
+.twitterpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 250px;
+  border: 1px solid whitesmoke;
+}
+.instapage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 250px;
+  border: 1px solid whitesmoke;
+}
+.ytubepage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 250px;
+  border: 1px solid whitesmoke;
+}
+/* ****************** */
+#form > button {
+  margin-top: 30px;
+  width: 300px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #9c3353;
+  color: white;
+  font-size: large;
+  border: transparent;
+}
+#suggestionbox {
+  display: grid;
+  width: 99%;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 100px;
+  /* border: 1px solid gray; */
+}
+#know_what {
+  /* border: 1px solid blue; */
+  width: 85%;
+  margin: auto;
+}
+#credential {
+  width: 85%;
+  display: flex;
+  gap: 10%;
+  margin: 30px auto;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 0 10px 0;
+}
+#credential input {
+  width: 400px;
+  height: 20px;
+  border-width: 0 0 1px;
+  /* border-color: gray ; */
+}
+/* #credential input:focus {
+  padding: 1px ;
+  width: 400px;
+} */
+#queries {
+  width: 85%;
+  margin: 10px auto;
+  height: 150px;
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+}
+#send {
+  width: 85%;
+  margin: 10px auto;
+}
+#send > button {
+  width: 220px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #9c3353;
+  margin: 5px 0 5px 0;
+  border: transparent;
+  font-size: 20px;
+  color: white;
+}
+#scontainer {
+  width: 85%;
+  margin: 5px auto;
+  background-color: #e0ffc7;
+}
+.divb {
+  width: 100%;
+  padding: 30px 0 30px 0;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  background-color: #e0ffc7;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.divb > h3 {
+  margin-left: 50px;
+}

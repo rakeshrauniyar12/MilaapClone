@@ -46,7 +46,7 @@ let footer=()=>{
    </div>
 </div>
 <div id="section4">
-    <button> Start a fundraiser</button>
+    <button class="ft-btn"> Start a fundraiser</button>
     <div id="section4_1">
         <a href="">Pricing</a>
         <a href="">Review</a>

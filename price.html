@@ -1,285 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/price.css">
-    <link rel="stylesheet" href="./component/headers.css">
-    <link rel="stylesheet" href="./footer/footer.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/price.css" />
+    <link rel="stylesheet" href="./component/headers.css" />
+    <link rel="stylesheet" href="./footer/footer.css" />
     <title>Pricing</title>
-
-</head>
-<body> 
-   <div id="navbar"></div>
-   <div id="top">
-            <img src="https://90octane.com/wp-content/uploads/2022/05/90blog_headers_1200x750_042022-05.jpg" alt="error" > 
-             <div id="toptwo">
-                  <h1>FREE FUNDRAISING FOR ALL!</h1>
-                  <h1> 0% PLATFORM FEES</h1>
-                  <hr>
-                  <h2>RAISE MAXIMUM FUNDS FOR THE CAUSE YOU </h2>
-                  <h2>CARE ABOUT</h2>
-                  <hr>
-               <button>Start a fundraiser</button>
-            </div>
-  </div>
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div id="top">
+      <img
+        src="https://90octane.com/wp-content/uploads/2022/05/90blog_headers_1200x750_042022-05.jpg"
+        alt="error"
+      />
+      <div id="toptwo" style="background: transparent">
+        <h1>FREE FUNDRAISING FOR ALL!</h1>
+        <h1>0% PLATFORM FEES</h1>
+        <hr />
+        <h2 style="background: transparent">
+          RAISE MAXIMUM FUNDS FOR THE CAUSE YOU
+        </h2>
+        <h2 style="background: transparent">CARE ABOUT</h2>
+        <hr />
+        <button>Start a fundraiser</button>
+      </div>
+    </div>
     <!-- ******************** -->
-    <div id="midlevel"> 
+    <div id="midlevel">
+      <h1 id="midh1">Fundraiser goal calculator</h1>
+      <p id="midp">A simple way to plan and achieve your fundraiser goal</p>
 
-         <h1 id="midh1">Fundraiser goal calculator</h1>
-         <p id="midp">A simple way to plan and achieve your fundraiser goal</p>
-         
-       <div id="midbox">
-            <div id="midbox1">
-                 <h4>I want to raise:</h4>
-                 <p>₹ INR 🡇 </p>
-                 <input type = "text"  id="ramount"  placeholder="10000" > 
-           </div>
-           <div id="slidecontainer">
-               <input type="range" min="10000" max="10000000" class="slider" id="myRange" value="10000" >
-           </div>
+      <div id="midbox">
+        <div id="midbox1">
+          <h4>I want to raise:</h4>
+          <p>₹ INR 🡇</p>
+          <input type="text" id="ramount" placeholder="10000" />
+        </div>
+        <div id="slidecontainer">
+          <input
+            type="range"
+            min="10000"
+            max="10000000"
+            class="slider"
+            id="myRange"
+            value="10000"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- *********** -->
+    <div id="calculate">
+      <button onclick="addToWallet()">Calculate</button>
+    </div>
+
+    <div class="calcontainer">
+      <div>
+        <h2>Consider setting a goal of approx.</h2>
+        <h1 id="goal">₹10,232.27</h1>
+        <p>
+          Disclaimer: This goal is the approximate amount you should <br />
+          consider setting where we assume that you would receive 70% of the
+          total funds from INR contributions.
+        </p>
       </div>
 
-   </div>
+      <div>
+        <h2>See breakup</h2>
+        <div class="breakup">
+          <p>Want to raise (₹) :</p>
+          <p id="samount">10000</p>
+        </div>
+        <div class="breakup">
+          <p>Milaap platform fee (₹) :</p>
+          <p>0</p>
+        </div>
+        <div class="breakup">
+          <p>Payment gateway charges (₹) :</p>
+          <p id="gateway">232</p>
+        </div>
+      </div>
+    </div>
 
-   <!-- *********** -->
-   <div id="calculate">
-    <button onclick="addToWallet()" >Calculate</button>
-  </div>
+    <!-- *********** -->
+    <div id="bottom">
+      <p id="questio">Why choose Milaap?</p>
 
-     <div class="calcontainer">
-             <div>
-                <h2>  Consider setting a goal of approx.</h2>
-                 <h1 id="goal"> ₹10,232.27</h1>
-                 <p> Disclaimer: This goal is the approximate amount you should <br>
-                  consider setting where we assume that you would receive 70%
-                  of the total funds from INR contributions.</p>
-             </div>
-
-             <div>
-                  <h2> See breakup</h2>
-                       <div class="breakup"> 
-                        <p>Want to raise (₹) : </p>
-                        <p id="samount" >10000</p>
-                     </div>
-                  <div class="breakup"> 
-                      <p>Milaap platform fee (₹) : </p>
-                      <p>0</p>
-                   </div>
-                   <div class="breakup"> 
-                    <p>Payment gateway charges (₹) : </p>
-                    <p id="gateway">232</p>
-                 </div>
-           </div>
-   </div>
-
-      <!-- *********** -->
-  <div id="bottom">
-           <p id="questio">Why choose Milaap?</p>
-           
-         <div id="mainimage"> 
-                 
-          <div id="imagefirst"> 
-                
-              <div class="card-items">
-              <div class="why"> 
-                 <img src="https://cimages.milaap.org/milaap/image/upload/v1631682001/production/entity_details/milaap_page/11594/svgg_1631682000.jpg" alt="error" > 
-                 <P>Dedicated relationship manager</P>
-               </div>
-               <hr>
-               <p class="description">Dedicated relationship manager to address all your fundraising needs. Receive help and support anytime, anywhere</p>
-             </div>
-
-            <img id="imageback" src="https://www.markful.com/content/Webflow/images/Contact-us-pana.svg"> 
-        
-          </div>
-             
-          <div class="card-section">
-    
-            <div class="card-items">
-               <div class="why"> 
-                  <img src="https://cimages.milaap.org/milaap/image/upload/v1631682004/production/entity_details/milaap_page/11594/path0_1631682003.jpg" alt="error" > 
-                  <P>Simple setup</P>
-              </div>
-              <hr>
-               <p class="description">Set up your fundraiser effortlessly, in 3 simple steps</p>
+      <div id="mainimage">
+        <div id="imagefirst">
+          <div class="card-items">
+            <div class="why">
+              <img
+                src="https://cimages.milaap.org/milaap/image/upload/v1631682001/production/entity_details/milaap_page/11594/svgg_1631682000.jpg"
+                alt="error"
+              />
+              <p>Dedicated relationship manager</p>
             </div>
-
-            <div class="card-items">
-              <div class="why"> 
-                 <img src="https://cimages.milaap.org/milaap/image/upload/v1631682008/production/entity_details/milaap_page/11594/path0-2_1631682007.jpg" alt="error" > 
-                 <P>Smart dashboard</P>
-             </div>
-             <hr>
-              <p class="description">Manage all your fundraiser details (withdrawals, donations, receipts and much more) with the interactive dashboard</p>
-           </div>
-
-            <div class="card-items">
-              <div class="why"> 
-                <img src="https://cimages.milaap.org/milaap/image/upload/v1631682010/production/entity_details/milaap_page/11594/Group_759_1631682009.jpg" alt="error" > 
-                <P>Easy fund withdrawal</P>
-              </div>
-              <hr>
-              <p class="description">Provide all the necessary documents (government ID proof, bank account
-                 details etc.), 
-                request transfer and withdraw funds safely in a few simple steps</p>
-            </div>
-
-            
-            <div class="card-items">
-              <div class="why"> 
-                <img src="https://cimages.milaap.org/milaap/image/upload/v1631682014/production/entity_details/milaap_page/11594/path0-3_1631682013.jpg" alt="error" > 
-                <P>Dedicated relationship manager</P>
-              </div>
-              <hr>
-              <p class="description">The most secure encryption technology to keep <br> your funds safe </p>
-            </div>
-            
-            <div class="card-items">
-              <div class="why"> 
-                <img src="https://cimages.milaap.org/milaap/image/upload/v1631682016/production/entity_details/milaap_page/11594/path0-1_1631682016.jpg" alt="error" > 
-                <P>24X7 Expert support</P>
-              </div>
-              <hr>
-              <p class="description">Expert support at your service, whenever you need</p>
-            </div>
-            
-            <div class="card-items">
-              <div class="why"> 
-                <img src="https://cimages.milaap.org/milaap/image/upload/v1631682019/production/entity_details/milaap_page/11594/path0-4_1631682018.jpg" alt="error" > 
-                <P>All-in-one mobile app</P>
-              </div>
-              <hr>
-              <p class="description">New mobile app to keep your fundraiser needs at your fingertips</p>
-            </div>
-          
-              <button>  Start a fundraiser  </button>
+            <hr />
+            <p class="description">
+              Dedicated relationship manager to address all your fundraising
+              needs. Receive help and support anytime, anywhere
+            </p>
           </div>
 
-   </div>
+          <img
+            id="imageback"
+            src="https://www.markful.com/content/Webflow/images/Contact-us-pana.svg"
+          />
+        </div>
 
-      
-
-  </div>
-
-       <!-- ***************** -->
-    
-       
-  <!-- ***************** -->
- 
-        <div id="lastline">Read what people are saying about Milaap!</div>
-          
-
-    <div id="related"> 
-              <div id="relatedtitle"> 
-                <h1>Related FAQs</h1>
-              </div>
-  
-
-          <div id="faq">
-            <h2 class="accordion">How much does Milaap charge?</h2> 
-            <div class="panel">
-              <p>Milaap charges NO platform fees on donations.</p>
-              <p>We have a 0% platform fee.  We rely on the generosity of our users
-                 to power the platform.</p>
+        <div class="card-section">
+          <div class="card-items">
+            <div class="why">
+              <img
+                src="https://cimages.milaap.org/milaap/image/upload/v1631682004/production/entity_details/milaap_page/11594/path0_1631682003.jpg"
+                alt="error"
+              />
+              <p>Simple setup</p>
             </div>
-              
-            <hr>
-            <h2 class="accordion">What are payment gateway charges and why is it charged?</h2> 
-
-            <div class="panel">
-              <p>Whenever you purchase (eg book tickets) or make an online payment,
-                 it needs to be securely processed and verified by a third party payment processor.  .</p>
-                  <p> 1. These processors include Banks (for netbanking, IMPS, NEFT, RTGS transactions), 
-                    Visa, Mastercard, AMEX, Rupay etc (for credit and debit card transactions), 
-                     Paytm, UPI apps and other payment wallets who charge a small fee for this 
-                    service (‘payment gateway charges’).  These charges on crowdfunding websites 
-                    are unavoidable.  </p>
-                    <br>
-              <p>
-                 2. This is NOT Milaap fees. These fees go directly to the payment processor and 
-                help us keep Milaap a safe place to donate.Payment gateways charge their fees
-                 as a % of donation amount made. It varies based on the mode of payment and 
-                 service provider.
-              </p>
-              <p>
-                For donations made in Indian Rupees (INR)
-              </p>
-              <p>
-                UPI apps - 0.75% to 2.45%
-              </p>
-              <p>
-                Debit/Credit cards - 2.33%
-              </p>
-              <p>
-                Netbanking - 2.51%
-              </p>
-              <p>
-                Amazon Pay - 2.71%
-              </p>
-              <br>
-              <p>
-                For donations made in US Dollars using a card issued in the USA
-                 (USD): 2.9% + 30cents per donation
-              </p>
-              <p>
-                For donations made in other foreign currencies or 
-                in USD using a card issued outside the USA: 3.9% + 30cents per donation
-              </p>
-              <p>
-                Reference: https://stripe.com/us/pricing
-              </p>
-            </div>
-            <hr>
-         <h2 class="accordion">Is the free fundraising applicable for organizations and not-for-profits?</h2> 
-            <div class="panel">
-                <p>
-                  Yes, Milaap charges NO platform fees for individuals, NGOs and organizations alike. In fact,
-                   organizations with 80G tax-exempt status also have the option to either issue tax-exemption
-                    receipts from Milaap's dashboard or issue it separately. Receipts to donors from
-                   Milaap's dashboard can be issued, at a click of a button. This feature is FREE
-                    to use and entails NO FEES.</p>
-            </div>
-            <hr>
-            <h2 class="accordion">Does Milaap help in outreach of campaigns?</h2>
-            <div class="panel"> 
-              <p> 
-                Over 98% of Milaap’s fundraisers which have raised money do it for FREE using
-                 our best-in-class social fundraising 
-                technology and round-the-clock assistance and support from our relationship managers.
-              </p> <br>
-              <p>
-                In certain scenarios, where the beneficiaries come from a disadvantaged backgrounds with 
-                no digital literacy, exhausted most of their finances with no other sources available
-                 and require funds very urgently; Milaap may consider them on a case-by-case basis for
-                  outreach on social media and digital promotion platforms after verification and a signed
-                   request letter from the beneficiary. This is subject to availability of our team members,
-                 and situations where we believe promotions can achieve something significant for the cause.
-               </p>
-               <br>
-               <p>
-                Similar to payment gateway costs where it's paid to payment processor, outreach costs are
-                 paid towards social media and digital promotion platforms. To ensure that donor money
-                  goes primarily to the intended purpose, we cap the outreach costs to not more than 15% 
-                  of funds raised. Please note that Milaap doesn't 
-                earn / keep any additional fee or commission for itself from the costs incurred through promotions.
-               </p>
-            </div>
-            <hr>
-    
+            <hr />
+            <p class="description">
+              Set up your fundraiser effortlessly, in 3 simple steps
+            </p>
           </div>
-     
+
+          <div class="card-items">
+            <div class="why">
+              <img
+                src="https://cimages.milaap.org/milaap/image/upload/v1631682008/production/entity_details/milaap_page/11594/path0-2_1631682007.jpg"
+                alt="error"
+              />
+              <p>Smart dashboard</p>
+            </div>
+            <hr />
+            <p class="description">
+              Manage all your fundraiser details (withdrawals, donations,
+              receipts and much more) with the interactive dashboard
+            </p>
+          </div>
+
+          <div class="card-items">
+            <div class="why">
+              <img
+                src="https://cimages.milaap.org/milaap/image/upload/v1631682010/production/entity_details/milaap_page/11594/Group_759_1631682009.jpg"
+                alt="error"
+              />
+              <p>Easy fund withdrawal</p>
+            </div>
+            <hr />
+            <p class="description">
+              Provide all the necessary documents (government ID proof, bank
+              account details etc.), request transfer and withdraw funds safely
+              in a few simple steps
+            </p>
+          </div>
+
+          <div class="card-items">
+            <div class="why">
+              <img
+                src="https://cimages.milaap.org/milaap/image/upload/v1631682014/production/entity_details/milaap_page/11594/path0-3_1631682013.jpg"
+                alt="error"
+              />
+              <p>Dedicated relationship manager</p>
+            </div>
+            <hr />
+            <p class="description">
+              The most secure encryption technology to keep <br />
+              your funds safe
+            </p>
+          </div>
+
+          <div class="card-items">
+            <div class="why">
+              <img
+                src="https://cimages.milaap.org/milaap/image/upload/v1631682016/production/entity_details/milaap_page/11594/path0-1_1631682016.jpg"
+                alt="error"
+              />
+              <p>24X7 Expert support</p>
+            </div>
+            <hr />
+            <p class="description">
+              Expert support at your service, whenever you need
+            </p>
+          </div>
+
+          <div class="card-items">
+            <div class="why">
+              <img
+                src="https://cimages.milaap.org/milaap/image/upload/v1631682019/production/entity_details/milaap_page/11594/path0-4_1631682018.jpg"
+                alt="error"
+              />
+              <p>All-in-one mobile app</p>
+            </div>
+            <hr />
+            <p class="description">
+              New mobile app to keep your fundraiser needs at your fingertips
+            </p>
+          </div>
+
+          <button>Start a fundraiser</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ***************** -->
+
+    <!-- ***************** -->
+
+    <div id="lastline">Read what people are saying about Milaap!</div>
+
+    <div id="related">
+      <div id="relatedtitle">
+        <h1>Related FAQs</h1>
       </div>
 
-      <div id="footer">
-        
-      </div>
+      <div id="faq">
+        <h2 class="accordion">How much does Milaap charge?</h2>
+        <div class="panel">
+          <p>Milaap charges NO platform fees on donations.</p>
+          <p>
+            We have a 0% platform fee. We rely on the generosity of our users to
+            power the platform.
+          </p>
+        </div>
 
-    
-</body>
+        <hr />
+        <h2 class="accordion">
+          What are payment gateway charges and why is it charged?
+        </h2>
+
+        <div class="panel">
+          <p>
+            Whenever you purchase (eg book tickets) or make an online payment,
+            it needs to be securely processed and verified by a third party
+            payment processor. .
+          </p>
+          <p>
+            1. These processors include Banks (for netbanking, IMPS, NEFT, RTGS
+            transactions), Visa, Mastercard, AMEX, Rupay etc (for credit and
+            debit card transactions), Paytm, UPI apps and other payment wallets
+            who charge a small fee for this service (‘payment gateway charges’).
+            These charges on crowdfunding websites are unavoidable.
+          </p>
+          <br />
+          <p>
+            2. This is NOT Milaap fees. These fees go directly to the payment
+            processor and help us keep Milaap a safe place to donate.Payment
+            gateways charge their fees as a % of donation amount made. It varies
+            based on the mode of payment and service provider.
+          </p>
+          <p>For donations made in Indian Rupees (INR)</p>
+          <p>UPI apps - 0.75% to 2.45%</p>
+          <p>Debit/Credit cards - 2.33%</p>
+          <p>Netbanking - 2.51%</p>
+          <p>Amazon Pay - 2.71%</p>
+          <br />
+          <p>
+            For donations made in US Dollars using a card issued in the USA
+            (USD): 2.9% + 30cents per donation
+          </p>
+          <p>
+            For donations made in other foreign currencies or in USD using a
+            card issued outside the USA: 3.9% + 30cents per donation
+          </p>
+          <p>Reference: https://stripe.com/us/pricing</p>
+        </div>
+        <hr />
+        <h2 class="accordion">
+          Is the free fundraising applicable for organizations and
+          not-for-profits?
+        </h2>
+        <div class="panel">
+          <p>
+            Yes, Milaap charges NO platform fees for individuals, NGOs and
+            organizations alike. In fact, organizations with 80G tax-exempt
+            status also have the option to either issue tax-exemption receipts
+            from Milaap's dashboard or issue it separately. Receipts to donors
+            from Milaap's dashboard can be issued, at a click of a button. This
+            feature is FREE to use and entails NO FEES.
+          </p>
+        </div>
+        <hr />
+        <h2 class="accordion">Does Milaap help in outreach of campaigns?</h2>
+        <div class="panel">
+          <p>
+            Over 98% of Milaap’s fundraisers which have raised money do it for
+            FREE using our best-in-class social fundraising technology and
+            round-the-clock assistance and support from our relationship
+            managers.
+          </p>
+          <br />
+          <p>
+            In certain scenarios, where the beneficiaries come from a
+            disadvantaged backgrounds with no digital literacy, exhausted most
+            of their finances with no other sources available and require funds
+            very urgently; Milaap may consider them on a case-by-case basis for
+            outreach on social media and digital promotion platforms after
+            verification and a signed request letter from the beneficiary. This
+            is subject to availability of our team members, and situations where
+            we believe promotions can achieve something significant for the
+            cause.
+          </p>
+          <br />
+          <p>
+            Similar to payment gateway costs where it's paid to payment
+            processor, outreach costs are paid towards social media and digital
+            promotion platforms. To ensure that donor money goes primarily to
+            the intended purpose, we cap the outreach costs to not more than 15%
+            of funds raised. Please note that Milaap doesn't earn / keep any
+            additional fee or commission for itself from the costs incurred
+            through promotions.
+          </p>
+        </div>
+        <hr />
+      </div>
+    </div>
+
+    <div id="footer"></div>
+  </body>
 </html>
 
-<script src="./scripts/price.js" type="module">
-  
-</script>
+<script src="./scripts/price.js" type="module"></script>
